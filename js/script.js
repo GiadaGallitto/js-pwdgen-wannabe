@@ -1,10 +1,17 @@
 
-let userName = prompt ("Ciao! Qual'è il tuo nome?")
+const userName = prompt("Ciao! Qual'è il tuo nome?");
 
-let userSurname = prompt("Ora dimmi il tuo cognome :)")
+const userSurname = prompt("Ora dimmi il tuo cognome:)");
 
-let userColor = prompt ("Manca solo il tuo colore preferito!")
+const userColor = prompt("E il colore preferito?");
 
-console.log (userName, userSurname, userColor)
+console.log(userName, userSurname, userColor);
 
-document.getElementById("output") .innerHTML = "La tua password sarà: " + userName + userSurname + userColor + "22";
+const userAge = parseInt(prompt("Mi manca solo la tua età (sii sincero, tanto lo scopro se menti)"));
+
+const addYears = 10;
+let fakeAge = userAge + addYears;
+
+
+
+document.getElementById("output").innerHTML = "La tua password sarà:" + userName + userSurname + userColor + fakeAge;
