@@ -12,6 +12,6 @@ const userAge = parseInt(prompt("Mi manca solo la tua età (sii sincero, tanto l
 const addYears = 10;
 let fakeAge = userAge + addYears;
 
-
+console.log(userAge)
 
 document.getElementById("output").innerHTML = "La tua password sarà:" + userName + userSurname + userColor + fakeAge;

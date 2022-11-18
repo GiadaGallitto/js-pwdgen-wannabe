@@ -4,17 +4,54 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/style.css">
         <title>JS Wannabe</title>
     </head>
 
     <body>
-        
-        <main>
-            <h1>Benvenuto! Gentile Utente!</h1>
-            <h2>Grazie per aver scelto il nostro generatore di password!</h2>
-            <p id="output"></p>
-        </main>
+        <div class="bg-container">
+            <header>
+                <div class="row">
+                    <div class="col-12 text-center py-2">
+                        <h1 class="fw-bold fs-1">Password Generator</h1>
+                    </div>
+                </div>
+            </header>
+            
+            <main>
+                <div class="row welcome text-white">
+                    <div class="col-12 text-center mt-3">
+                        <h1 class="fw-bold">Benvenuto! Gentile Utente!</h1>
+                    </div>
+                    <div class="col-8 thanks text-center border border-dark border-2 m-auto my-2">
+                        <h2>Grazie per aver scelto il nostro generatore di password!</h2>
+                    </div>
+                    <div class="col-10 explanation text-center border border-dark border-2 m-auto">
+                        <h4>Se ti sei chiesto perchè ti abbiamo aggredito con domande dirette e personali, ecco la risposta!</h4>
+                    </div>
+                </div>
+                <div class="row trial my-4">
+                    <div class="col-12 bg-light text-dark text-center px-4 mt-4 pt-2 fw-bold">
+                        <p>Ti abbiamo dato l'opportunità INCREDIBILE di provare il nostro nuovo servizio per la creazione di una tua password unica, personale e al 100% affidabile e sicura!</p>
+                    </div>
+                    <div class="col-12 bg-light text-dark text-center px-4 my-4 pt-2 fw-bold">
+                        <h5><span class="fw-bold">So cosa ti stai chiedendo!</span> <br>
+                            E se fosse solo un subdolo modo per ottenere i miei dati personali e utilizzarli come più vi aggrada per fini illegali?
+                        </h5>
+                        <span>.....</span>
+                        <h3>Non perdere tempo in inutili domande!</h3>
+                        <h4>E goditi la nostra prima prova gratuita!</h4>
+                    </div>
+                </div>
+                <div class="row generator">
+                    <div class="col-12 bg-light text-dark text-center px-4 py-5 my-4 pt-2 fw-bold">
+                        <p id="output" class="pt-5 fs-3"></p>
+                    </div>
+                </div>
+                <p class="text-white">L'utilizzo della password fornita è ASSOLUTAMENTE sicuro e NON verrà conservato per motivi.... interessanti :)</p>
+            </main>
+        </div>
 
         <script type="text/javascript" src="./js/script.js"></script>
     </body>

@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-container{
+    background-image: url(../img/blue-matrix.jpg);
+    height: 100vh;
+}
+
+header{
+    color: #161c3b;
+    opacity: 1;
+}
+
+header .row{
+    background-color: #4c62d3;
+}
+
+.welcome{
+    text-shadow: 10px 10px 10px black;
+}
+
+.thanks,
+.explanation{
+    background-color: #263372;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+.trial,
+.generator{
+    opacity: 0.9;
+    background-color: #263372;
+}
+
+main>p{
+    font-size: 0.8rem;
+}
